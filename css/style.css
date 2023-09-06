@@ -1,0 +1,24 @@
+/* RESET  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* BASE LAYOUT */
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* DEBUG */
+
+.debug [class^=page-] {
+    min-height: 200px;
+}
+
+.page-header, .page-footer {
+    background-color: aquamarine;
+}
