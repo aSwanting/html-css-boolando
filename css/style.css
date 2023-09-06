@@ -72,10 +72,32 @@ body {
 .item-card {
     position: relative;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
+
+
 .item-img {
+    position: relative;
     margin-bottom: 8px;
+    left: 0%;
+    transition: all 200ms;
+}
+
+.item-card:hover .item-img {
+    left: -100%;
+}
+
+.alt-img {
+    position: absolute;
+    margin-bottom: 8px;
+    top: 0px;
+    left: 100%;
+    transition: all 200ms;
+}
+
+.item-card:hover .alt-img {
+    left: 0%;
 }
 
 .item-brand {
@@ -94,6 +116,7 @@ body {
     line-height: 6px;
     font-weight: bold;
     color: red;
+    padding-bottom: 5px;
 }
 
 .old-price {
