@@ -31,6 +31,10 @@ body {
     margin: 0 auto;
 }
 
+[class^="page-"] {
+    padding-inline: 10px;
+}
+
 body {
     display:flex;
     flex-direction: column;
@@ -114,14 +118,21 @@ body {
 
 /* GALLERY */
 
+.gallery {
+    padding-block: 10px;
+}
+
 .item-card {
-    position: relative;
     margin-bottom: 20px;
+}
+
+.card-img {
+    margin-bottom: 8px;
+    position: relative;
     overflow: hidden;
 }
 
 .item-img, .alt-img {
-    margin-bottom: 8px;
     transition: all 300ms ease-in-out;
 }
 
@@ -147,12 +158,14 @@ body {
 .item-brand {
     font-size: 11px;
     line-height: 6px;
+    margin-bottom: 4px;
 }
 
 .item-name {
     font-size: 17px;
-    line-height: 28px;
+    line-height: 16px;
     font-weight: bold;
+    margin-bottom: 2px;
 }
 
 .item-price {
@@ -171,7 +184,7 @@ body {
 
 .card-overlay {
     position: absolute;
-    bottom: 100px;
+    bottom: 10%;
     color: white;
     column-gap: 4px;
     font-size: 12px;
