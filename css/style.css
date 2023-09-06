@@ -65,7 +65,7 @@ body {
     flex-basis: calc(((100% / 12) * 4) - 15px);
 }
 
-/* HEADER FOOTER */
+/* HEADER */
 
 .page-header {
     padding-block: 18px;
@@ -110,12 +110,6 @@ body {
 .basket-icon {
     width: 21px;
     fill: white;
-}
-
-.page-footer {
-    height: 80px;
-    background-color: #1A1A1A;
-    border-bottom: 1px solid white;
 }
 
 /* GALLERY */
@@ -216,6 +210,40 @@ body {
     background-color: rgb(204, 83, 100);
 }
 
+/* FOOTER */
+
+.page-footer {
+    padding-block: 30px;
+    background-color: #1A1A1A;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.footer-menu h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-menu ul {
+    font-size: 14px;
+    gap: 10px;
+}
+
+.footer-social p {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.logo-bar {
+
+    gap: 12px;
+}
+
+.logo-bar img {
+
+    height: 20px;
+}
 
 /* DEBUG */
 
