@@ -77,8 +77,39 @@ body {
 }
 
 .page-header ul {
-    display: flex;
     gap: 10px;
+}
+
+.header-logo {
+    width: 124px;
+}
+
+.header-icons {
+    gap: 5px;
+}
+
+.header-icons a {
+    display: contents;
+}
+
+.user-icon, .fav-icon {    
+    fill: none;
+    stroke: white;
+}
+
+.user-icon {
+    width: 16px;
+    stroke-width: 3px;
+}
+
+.fav-icon {
+    width: 19px;
+    stroke-width: 2px;
+}
+
+.basket-icon {
+    width: 21px;
+    fill: white;
 }
 
 .page-footer {
@@ -188,21 +219,20 @@ body {
 
 /* DEBUG */
 
-.debug [class^=page-] {
+/* .debug [class^=page-] {
     padding: 20px;
-}
+} */
 
-.debug .page-header, 
+/* .debug .page-header, 
 .debug .page-footer {
     background-color: rgb(145, 211, 236);
-}
+} */
 
-.debug .container {
-    border: 1px dotted rgb(89, 81, 117);
-    /* padding: 20px; */
-}
+/* .debug .container {
+    border: 1px dotted rgb(255, 255, 255);
+} */
 
 .debug [class^=col] {
     border: 1px dotted rgb(89, 81, 117);
-    min-height: 60px;
+    /* padding: 10px; */
 }
